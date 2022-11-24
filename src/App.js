@@ -1,24 +1,30 @@
-import logo from './logo.svg';
+import'./logo_port.jpg';
 import './App.css';
+import Body from './components/Body';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 function App() {
+  const mystyle={
+    backgroundImage:"url('https://i.pinimg.com/originals/45/3f/14/453f143ad31ed8482ebed9c4084b8059.jpg')",
+    backgroundSize: 'cover',
+     zIndex:'-1'
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div style={mystyle}>
+    <Navbar/>
+    <Body/>
+    <Skills/>
     </div>
+    <Projects/>
+    <Contact/>
+
+    <Footer/>
+    </>
   );
 }
 

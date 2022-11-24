@@ -22,7 +22,7 @@ export class Skills extends Component {
       <div style={divstyle}>
         <div className="container">
         <h1>Skills</h1>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laboriosam dolor deleniti veniam, natus voluptas? Illum ipsum at quia consequatur ex, magnam labore. Quos impedit, hic rerum omnis culpa delectus?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos laboriosam dolor deleniti venam, natus voluptas? Illum ipsum at quia consequatur ex, magnam labore. Quos impedit, hic rerum omnis culpa delectus?
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active" style={space}>

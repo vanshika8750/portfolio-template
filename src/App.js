@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Subscribe from './components/Subscribe';
 
 function App() {
   const mystyle={
@@ -19,10 +20,11 @@ function App() {
     <Navbar/>
     <Body/>
     <Skills/>
+    <div><br /><br /></div>
     </div>
     <Projects/>
     <Contact/>
-
+    {/* <Subscribe/> */}
     <Footer/>
     </>
   );

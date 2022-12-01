@@ -28,21 +28,15 @@ export class Skills extends Component {
     <div className="carousel-item active" style={space}>
       <div style={col}>
       <h3>Web Development</h3>
-      <div className="progress">
-  <div className="progress-bar" role="progressbar" aria-label="Example with label" style={{width: "25%" }}aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-</div>
+      
 </div>
 <div style={col}>
 <h3>Web Development</h3>
-      <div className="progress">
-  <div className="progress-bar" role="progressbar" aria-label="Example with label" style={{width: "25%" }}aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-</div>
+      
 </div>
 <div style={col}>
 <h3>Web Development</h3>
-      <div className="progress">
-  <div className="progress-bar" role="progressbar" aria-label="Example with label" style={{width: "25%" }}aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-</div>
+      
 </div>
     </div>
     <div className="carousel-item" style={space}>

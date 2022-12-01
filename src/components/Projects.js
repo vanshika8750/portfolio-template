@@ -6,16 +6,20 @@ export class Projects extends Component {
         textAlign:'center',
         backgroundColor:'black',
         color:'white',
-        
+        margin:'-30px 0px'
+    };
+    const tabstyle={
+      margin:'auto'
     };
     return (
-      <div  style={divstyle}>
+      <div style={divstyle} >
+        <br /><br />
         <h1>Projects</h1>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente
         voluptates voluptate et quis esse, dignissimos numquam distinctio
         obcaecati ullam minus rerum mollitia dolore architecto nam delectus
         dolorem quidem quod. Eveniet.
-        <nav aria-label="...">
+        <nav aria-label="..."style={tabstyle}>
           <ul class="pagination pagination-lg">
             <li class="page-item active" aria-current="page">
               <span class="page-link">Tab 1</span>
@@ -33,6 +37,7 @@ export class Projects extends Component {
           </ul>
         </nav>
       </div>
+     
     );
   }
 }
